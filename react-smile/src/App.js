@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Name/>
-        <Learning/>
+        <Learning name='Bannana'/>
+        <Learning name='Fish'/>
+        <Learning name='Milk'/>
       </header>
     </div>
   );
