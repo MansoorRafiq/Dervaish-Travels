@@ -8,9 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Learning/>
-        <Favorite name='Bannana'/>
-        <Favorite name='Milk'/>
-        <Favorite name='Fish'/>
       </header>
     </div>
   );
