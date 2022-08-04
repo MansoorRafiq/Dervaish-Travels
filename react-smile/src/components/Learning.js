@@ -15,7 +15,7 @@ class Learning extends Component
 
   render()
   {
-    return <h1>Fruit name is {state.fruits[0].name}</h1>
+    return <h1>Fruit name is {this.state.fruits[0].name}</h1>
   }
 }
 
