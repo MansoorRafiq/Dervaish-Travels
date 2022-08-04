@@ -4,7 +4,7 @@ class Learning extends Component
 {
   render()
   {
-    return <h1>HellO Udemy!</h1>
+    return <h1>Hello Udemy!</h1>
   }
 }
 
