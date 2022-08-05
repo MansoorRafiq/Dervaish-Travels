@@ -19,8 +19,8 @@ class Learning extends Component
           (
             <div>
                 <h1>Fruit name is {this.state.fruits[0].name} and the weight is {this.state.fruits[0].weight}</h1>
-                h1>Fruit name is {this.state.fruits[1].name} and the weight is {this.state.fruits[0].weight}</h1>
-                h1>Fruit name is {this.state.fruits[2].name} and the weight is {this.state.fruits[0].weight}</h1>
+                <h1>Fruit name is {this.state.fruits[1].name} and the weight is {this.state.fruits[0].weight}</h1>
+                <h1>Fruit name is {this.state.fruits[2].name} and the weight is {this.state.fruits[0].weight}</h1>
             </div>
           )
   }
