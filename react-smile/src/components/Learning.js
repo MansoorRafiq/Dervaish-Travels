@@ -13,6 +13,8 @@ class Learning extends Component
     ]
   }
 
+  clickHandler = ()
+
   render()
   {
     return 
