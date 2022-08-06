@@ -13,7 +13,11 @@ class Learning extends Component
     ]
   }
 
-  clickHandler = ()
+  clickHandler = () =>
+  {
+    console.log('Hello Mansoor Rafiq');
+    alert('Welcome Mansoor')
+  }
 
   render()
   {
@@ -21,6 +25,7 @@ class Learning extends Component
           
           (
             <div>
+                  <button onClick={this.clickHandler}>Click Me</button>
                   <h1>Fruit name is {this.state.fruits[0].name} and the weight is {this.state.fruits[0].weight}</h1>
                   
               </div>  
