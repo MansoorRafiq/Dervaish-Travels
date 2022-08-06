@@ -26,7 +26,6 @@ class Learning extends Component
           (
             <div>
                   <button onClick={this.clickHandler}>Click Me</button>
-                  <h1>Fruit name is {this.state.fruits[0].name} </h1>
                   
               </div>  
             )
